@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wholesale Molecular</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <div class="contact-info">1.234.567.8901 | support@wholesalemolecular.com</div>
+        </div>
+    </div>
+    <nav class="main-menu">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="C:/Users/rtrug/OneDrive/desktop/coding/science/images/logo.png" alt="Wholesale Molecular Logo">
+                </a>
+            </div>
+            <div class="search-container">
+                <form id="siteSearch" class="search-form">
+                    <input type="search" id="searchInput" placeholder="Search the site..." aria-label="Search">
+                    <button type="submit" class="search-button" aria-label="Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <div id="searchResults" class="search-results" style="display: none;">
+                    <div id="resultsCount" class="results-count"></div>
+                    <div id="resultsList" class="results-list"></div>
+                </div>
+            </div>
+            <ul class="menu-items">
+                <li class="dropdown">
+                    <a href="C:\Users\rtrug\OneDrive\Desktop\coding\science\product.html" class="dropdown-toggle">Products</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/Users/rtrug/OneDrive/Desktop/coding/science/anti.html">Antibiotic Resistance</a></li>
+                        <li><a href="/Users/rtrug/OneDrive/Desktop/coding/science/covid.html">COVID-FLU-RSV</a></li>
+                        <li><a href="/Users/rtrug/OneDrive/Desktop/coding/science/sti.html">Sexually Transmitted Infection (STI)</a></li>
+                        <li><a href="/Users/rtrug/OneDrive/Desktop/coding/science/uti.html">UTI</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="/Users/rtrug/OneDrive/Desktop/coding/science/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="product-hero-section">
+        <div class="hero-content">
+            <h1>COVID-FLU-RSV</h1>
+        </div>
+    </section>
+
+    <section class="product-details">
+        <div class="details-container">
+            <div class="product-image">
+                <img src="C:\Users\rtrug\OneDrive\Desktop\coding\science\images\rujIvcY - Imgur.png" alt="COVID-FLU-RSV Test Kit" class="main-image">
+    
+            </div>
+            <div class="product-info">
+                <p class="description">This kit simultaneously detects SARS-CoV-2, influenza A, influenza B, and RSV viral RNA.</p>
+                <p class="quantity">Each kit includes 100 tests.</p>
+                
+                <a href="contact.html" class="quote-btn">Request a Quote</a>
+            
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-overlay"></div>
+        <div class="footer-content">
+            <!-- Company Info Section -->
+            <div class="footer-section company-info">
+                <img src="logo.png" alt="Wholesale Molecular" class="footer-logo">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:1.650.968.8848">1.650.968.8848</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:support@wholesalemolecular.com">support@wholesalemolecular.com</a>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="contact.html" class="footer-cta">Contact Us</a>
+            </div>
+    
+            <!-- Products Section -->
+            <div class="footer-section products">
+                <h3>Our Products</h3>
+                <ul>
+                    <li><a href="anti.html">Antibiotic Resistance</a></li>
+                    <li><a href="covid.html">COVID-FLU-RSV</a></li>
+                    <li><a href="sti.html">Sexually Transmitted Infection (STI)</a></li>
+                    <li><a href="uti.html">UTI</a></li>
+                </ul>
+            </div>
+    
+            <!-- Search Section -->
+            <div class="footer-section search-section">
+                <h3>Search Our Site</h3>
+                <p>Find the products and information you need.</p>
+                <div class="footer-search">
+                    <form id="footerSearch" class="search-form" onsubmit="handleFooterSearch(event)">
+                        <div class="search-container">
+                            <input 
+                                type="search" 
+                                id="footerSearchInput" 
+                                placeholder="Search the site..." 
+                                aria-label="Search"
+                                onkeyup="handleFooterSearchInput(event)"
+                            >
+                            <button type="submit" class="search-button" aria-label="Submit search">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                    <div id="footerSearchResults" class="search-results" style="display: none;">
+                        <div id="footerResultsCount" class="results-count"></div>
+                        <div id="footerResultsList" class="results-list"></div>
+                    </div>
+                </div>
+                <div class="quick-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Wholesale Molecular. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
